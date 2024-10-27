@@ -74,8 +74,6 @@ elif option == "Diabetes":
 
 elif option == "Student Alcohol Consumption":
     st.header("Student Alcohol Consumption Prediction")
-    weekday_consumption = st.number_input("Weekday Alcohol Consumption (0-4)", min_value=0, max_value=4, value=1)
-    weekend_consumption = st.number_input("Weekend Alcohol Consumption (0-4)", min_value=0, max_value=4, value=2)
     age = st.number_input("Age", min_value=10, max_value=30, value=18)
     studytime = st.slider('Study Time (hours/week)', 1, 4, 2)
     health = st.slider('Health Status (1 = worst, 5 = best)', 1, 5, 3)
